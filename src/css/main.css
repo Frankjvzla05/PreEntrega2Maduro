@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1 {
+    color: #551a8b;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 233, 182);
+    padding: .7rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #551a8b;
+    font-weight: bold;
+    font-size: large;
+}
+
+.items-container {
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}

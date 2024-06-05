@@ -9,16 +9,16 @@ export const NavBar = () => {
           <Link className='nav-link' to={"/"}>Inicio</Link>
         </li>
         <li>
-         <Link className='nav-link' to={"category/ropa-mujer"}>Ropa Mujer</Link>
+         <Link className='nav-link' to={"category/women's clothing"}>Ropa Mujer</Link>
         </li>
         <li>
-          <Link className='nav-link' to={"category/ropa-hombre"}>Ropa Hombre</Link>
+          <Link className='nav-link' to={"category/men's clothing"}>Ropa Hombre</Link>
         </li>
         <li>
-          <Link className='nav-link' to={"category/electronica"}>Electrónica</Link>
+          <Link className='nav-link' to={"category/electronics"}>Electrónica</Link>
         </li>
         <li>
-          <Link className='nav-link' to={"category/joyas"}>Joyas</Link>
+          <Link className='nav-link' to={"category/jewelery"}>Joyas</Link>
         </li>
       </ul>
     </nav>

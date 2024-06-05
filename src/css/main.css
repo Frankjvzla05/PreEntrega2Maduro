@@ -33,4 +33,5 @@ h1 {
     min-height: 50vh;
     display: grid;
     place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }

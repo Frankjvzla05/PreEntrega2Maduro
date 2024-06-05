@@ -7,10 +7,6 @@ import {
 import Inicio from './components/categorias/inicio';
 import "./css/main.css";
 import ErrorPage from './error-page';
-import { RopaMujer } from './components/categorias/ropaMujer';
-import RopaHombre from './components/categorias/ropaHombre';
-import Joyas from './components/categorias/joyas';
-import Electronica from './components/categorias/electronica';
 import App from './App';
 import { ProductDetailPage } from './components/product/productDetailPage';
 import { Category } from './components/categorias/category';

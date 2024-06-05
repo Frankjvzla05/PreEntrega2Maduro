@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { ProductResume } from '../product/productResume';
+import './ItemListContainer.css'
 
 export const ItemListContainer = () => {
   let [products, setProducts] = useState([]);
@@ -10,7 +11,8 @@ export const ItemListContainer = () => {
   },[])
   return (
     <>
-      <div className='items-container'>Productos del sitio Web</div>
+    <h3>Productos del sitio Web</h3>
+      <div className='items-container'>
       {
         products ? 
           products.map((product, index) => {
@@ -20,6 +22,7 @@ export const ItemListContainer = () => {
           }) :
         "Loading..."
       }
+      </div>
     </>
     
   )

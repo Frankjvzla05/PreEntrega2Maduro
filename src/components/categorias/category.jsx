@@ -13,14 +13,17 @@ export const Category = () => {
     }, [categoryId])
   return (
     categoryProducts ?
-    (<div>
-        <h2>{categoryId}</h2>
-       { categoryProducts.map((product, index) => {
-        return(
-           <ProductResume key={index} product={product} /> 
-        )
-       })}
-    </div>) :
+    <>
+      <h2>{categoryId}</h2>
+      <div className='items-container'>
+        { categoryProducts.map((product, index) => {
+          return(
+            <ProductResume key={index} product={product} /> 
+          )
+        })}
+      </div>
+    </>
+     :
     "Loading ..."
   )
 }

@@ -5,7 +5,6 @@ import { ItemListContainer } from './ItemListContainer'
 const Inicio = () => {
   return (
     <>
-      <div>INICIO</div>
       <ItemListContainer />
     </>
     

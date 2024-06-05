@@ -1,13 +1,15 @@
-import { ItemListContainer } from '../components/ItemListContainer'
-import { Header } from '../components/header/Header'
+import {
+  Outlet,
+} from "react-router-dom";
+import { Header } from './components/header/Header'
 import './css/main.css'
 
-function App() {
 
+function App() {
   return (
     <>
       <Header />
-      <ItemListContainer />
+      <Outlet />
     </>
   )
 }
